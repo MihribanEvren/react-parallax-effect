@@ -19,11 +19,35 @@ function App() {
         <motion.div
           variants={gridSquareVariants}
           className="flex items-center justify-center gap-10 rounded-lg bg-slate-800 aspect-square"
-        ></motion.div>
+        >
+          <motion.div
+            className="w-20 h-20 rounded-lg bg-stone-100"
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+          />
+          <motion.div
+            className="w-20 h-20 rounded-full bg-stone-100"
+            initial={{ opacity: 0, y: -100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
+          />
+        </motion.div>
+        {/* Shape Shifting */}
         <motion.div
           variants={gridSquareVariants}
           className="flex items-center justify-center gap-10 rounded-lg bg-slate-800 aspect-square"
-        ></motion.div>
+        >
+          <motion.div
+            className="w-1/3 shadow-md h-1/3 bg-rose-400"
+            animate={{
+              scale: [1, 2, 3, 1],
+              rotate: [0, 90, 90, 0],
+              borderRadius: ['10%', '10%', '50%', '10%'],
+            }}
+            transition={{ duration: 3, ease: 'easeInOut', repeat: Infinity }}
+          />
+        </motion.div>
         <motion.div
           variants={gridSquareVariants}
           className="flex items-center justify-center gap-10 rounded-lg bg-slate-800 aspect-square"
