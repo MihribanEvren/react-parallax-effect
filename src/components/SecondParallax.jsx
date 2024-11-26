@@ -104,7 +104,7 @@ function SecondParallax() {
         alt="big planet"
       />
       <img
-        className="absolute z-10 w-[10%] opacity-30 right-32 top-40"
+        className="absolute z-10 w-[10%] opacity-60 right-32 top-40"
         src={smallPlanet}
         alt="small planet"
       />
