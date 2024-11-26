@@ -18,10 +18,10 @@ function FirstParallax() {
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ['start end', 'end end'],
+    offset: ['start start', 'end end'],
   });
   const starsScale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
-  const starsAnimation = useTransform(scrollYProgress, [0, 1], ['-5%', '8%']);
+  const starsAnimation = useTransform(scrollYProgress, [0, 1], ['0%', '10%']);
 
   const planetsAnimation = useTransform(
     scrollYProgress,
@@ -54,14 +54,14 @@ function FirstParallax() {
 
   return (
     <div
-      className="relative w-full h-[200vh] overflow-hidden"
+      className="relative w-full h-[130vh] overflow-hidden"
       ref={containerRef}
     >
       <motion.img
         className="absolute z-30"
         src={mountains}
         alt="mountains"
-        style={{ scale: mountainsScale, x: mountainShakeX, y: mountainShakeY }}
+        // style={{ scale: mountainsScale, x: mountainShakeX, y: mountainShakeY }}
       />
       <motion.img
         className="absolute z-20 "
