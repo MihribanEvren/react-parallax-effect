@@ -74,7 +74,7 @@ function SecondParallax() {
         style={{ scale: spaceScale }}
       />
       <motion.div
-        className="absolute z-30 w-full h-full mt-8 text-2xl font-bold tracking-wide text-center text-white lg:px-20 lg:text-4xl lg:mt-24 xl:mt-44"
+        className="absolute z-30 w-full h-full text-2xl font-bold tracking-wide text-center text-white lg:px-20 lg:text-4xl lg:mt-24 xl:mt-44"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
