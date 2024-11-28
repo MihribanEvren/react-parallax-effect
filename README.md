@@ -4,9 +4,9 @@ A simple and elegant parallax effect created using React, Tailwind CSS, and Fram
 
 ![Project Demo](./public/space.gif)
 
-### 🚀 Demo:
+### 🚀 Live Demo:
 
-https://ma-animations.netlify.app/
+Check out the live demo: [Parallax Effect](https://ma-animations.netlify.app/)
 
 ### 📋 Features
 
@@ -40,3 +40,7 @@ npm install
 ```
 npm run dev
 ```
+
+### 🙌 Contributing
+
+Contributions are welcome! If you’d like to contribute to the project, feel free to fork the repository and submit a pull request.
