@@ -4,8 +4,6 @@ A simple and elegant parallax effect created using React, Tailwind CSS, and Fram
 
 ![Project Demo](./public/demo.gif)
 
-> > > > > > > 1bb9c41 (added gif)
-
 ### 🚀 Live Demo:
 
 Check out the live demo: [Parallax Effect](https://ma-animations.netlify.app/)
