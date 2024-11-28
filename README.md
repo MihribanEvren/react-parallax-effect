@@ -1,6 +1,6 @@
-## 🌟 Parallax Effect with React, Tailwind CSS, and Framer Motion
+## 🌟 Parallax Effect with React, Tailwind, and Framer Motion
 
-A simple and elegant parallax effect created using React, Tailwind CSS, and Framer Motion. This project demonstrates how to build modern, interactive, and responsive UI effects using these powerful tools.
+A simple and elegant parallax effect created using React, Tailwind, and Framer Motion. This project demonstrates how to build modern, interactive, and responsive UI effects using these powerful tools.
 
 ![Project Demo](./public/demo.gif)
 
@@ -11,14 +11,14 @@ Check out the live demo: [Parallax Effect](https://ma-animations.netlify.app/)
 ### 📋 Features
 
 - Smooth parallax scrolling effect.
-- Fully responsive design using Tailwind CSS.
+- Fully responsive design using Tailwind.
 - Animations and transitions powered by Framer Motion.
 - Easy to extend and customize.
 
 ### 🛠️ Tools & Technologies
 
 - **React:** For building the UI components.
-- **Tailwind CSS:** For styling and responsive design.
+- **Tailwind:** For styling and responsive design.
 - **Framer Motion:** For animations and parallax movement.
 
 ### Installation
