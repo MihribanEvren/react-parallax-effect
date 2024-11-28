@@ -2,7 +2,9 @@
 
 A simple and elegant parallax effect created using React, Tailwind CSS, and Framer Motion. This project demonstrates how to build modern, interactive, and responsive UI effects using these powerful tools.
 
-![Project Demo](./public/space.gif)
+![Project Demo](./public/demo.gif)
+
+> > > > > > > 1bb9c41 (added gif)
 
 ### 🚀 Live Demo:
 
