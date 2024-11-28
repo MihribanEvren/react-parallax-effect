@@ -17,9 +17,9 @@ Check out the live demo: [Parallax Effect](https://ma-animations.netlify.app/)
 
 ### 🛠️ Tools & Technologies
 
-- React: For building the UI components.
-- Tailwind CSS: For styling and responsive design.
-- Framer Motion: For animations and parallax movement.
+- **React:** For building the UI components.
+- **Tailwind CSS:** For styling and responsive design.
+- **Framer Motion:** For animations and parallax movement.
 
 ### Installation
 
