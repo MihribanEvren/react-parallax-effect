@@ -9,7 +9,7 @@ function App() {
       {/* <BasicAnimations />
       <FirstParallax /> */}
       <SecondParallax />
-      <CrystalAnimation />
+      {/* <CrystalAnimation /> */}
     </>
   );
 }
