@@ -61,7 +61,7 @@ function SecondParallax() {
 
   return (
     <div
-      className="relative w-full overflow-hidden mb-[800px]"
+      className="relative w-full overflow-hidden"
       style={{
         aspectRatio: '17 / 11',
       }}

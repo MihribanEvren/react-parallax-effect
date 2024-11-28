@@ -1,8 +1,42 @@
-# React + Vite
+## 🌟 Parallax Effect with React, Tailwind CSS, and Framer Motion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant parallax effect created using React, Tailwind CSS, and Framer Motion. This project demonstrates how to build modern, interactive, and responsive UI effects using these powerful tools.
 
-Currently, two official plugins are available:
+![Project Demo](./public/space.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🚀 Demo:
+
+https://ma-animations.netlify.app/
+
+### 📋 Features
+
+- Smooth parallax scrolling effect.
+- Fully responsive design using Tailwind CSS.
+- Animations and transitions powered by Framer Motion.
+- Easy to extend and customize.
+
+### 🛠️ Tools & Technologies
+
+- React: For building the UI components.
+- Tailwind CSS: For styling and responsive design.
+- Framer Motion: For animations and parallax movement.
+
+### Installation
+
+#### 1. Clone the repository:
+
+```
+git clone https://github.com/mihribanevren/react-parallax-effect.git
+```
+
+#### 2. Install dependencies:
+
+```
+npm install
+```
+
+#### 3. Start the development server:
+
+```
+npm run dev
+```

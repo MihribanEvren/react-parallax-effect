@@ -1,4 +1,5 @@
 import BasicAnimations from './components/BasicAnimations';
+import CrystalAnimation from './components/CrystalAnimation';
 import FirstParallax from './components/FirstParallax';
 import SecondParallax from './components/SecondParallax';
 
@@ -8,6 +9,7 @@ function App() {
       {/* <BasicAnimations />
       <FirstParallax /> */}
       <SecondParallax />
+      <CrystalAnimation />
     </>
   );
 }
