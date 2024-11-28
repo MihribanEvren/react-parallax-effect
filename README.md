@@ -26,7 +26,7 @@ Check out the live demo: [Parallax Effect](https://ma-animations.netlify.app/)
 #### 1. Clone the repository:
 
 ```
-git clone https://github.com/mihribanevren/react-parallax-effect.git
+git clone https://github.com/MihribanEvren/react-parallax-effect.git
 ```
 
 #### 2. Install dependencies:
